@@ -3,7 +3,7 @@ import pandas as pd
 import torch.nn as nn
 import numpy as np
 
-#from model import BERTBaseUncased
+from model import BERTBaseUncased
 from sklearn import model_selection
 from sklearn import metrics
 from transformers import AdamW
@@ -11,6 +11,15 @@ from transformers import get_linear_schedule_with_warmup
 from sklearn import preprocessing
 
 def run():
+    #this function trains the model  
+    #initialize BERTDataset from dataset.py 
+    #for training dataset 
+    #create training dataloader 
+    #initialize the cuda device 
+    #use cpu if you dont have GPU 
+    #create parameters we want to optimize  
+    #we generally dont use any decay for bias  
+    #and weight layers 
     
     encoder = preprocessing.LabelEncoder()
     train.loc[:, "label"] = encoder.fit_transform(train["label"])
