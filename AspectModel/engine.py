@@ -4,12 +4,21 @@ import torch.nn as nn
 from tqdm import tqdm
 import pdb
 
-
+#This function returns the loss. 
 def loss_fn(outputs, targets):
     return nn.CrossEntropyLoss()(outputs, targets.view(-1, 1))
 
 
 def train_fn(data_loader, model, optimizer, device, scheduler):
+    
+    #This is the training function which trains for one epoch  
+    #:param data_loader: it is the torch dataloader object 
+    #:param model: torch model, bert in our case  
+    #:param optimizer: adam, sgd, etc  
+    #:param device: can be cpu or cuda  
+    #:param scheduler: learning rate scheduler 
+
+    
     model.train()
 
     for bi, d in tqdm(enumerate(data_loader), total=len(data_loader)):
@@ -35,6 +44,8 @@ def train_fn(data_loader, model, optimizer, device, scheduler):
 
 
 def eval_fn(data_loader, model, device):
+    
+    #this is the validation function that generates  predictions on validation data 
     model.eval()
     fin_targets = []
     fin_outputs = []
