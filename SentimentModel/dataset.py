@@ -1,3 +1,9 @@
+#we fetch max len and tokenizer from config.py  self.tokenizer = config.TOKENIZER  self.max_len = config.MAX_LEN 
+#encode_plus comes from hugginface's transformers 
+#and exists for all tokenizers they offer  
+#it can be used to convert a given string  #to ids, mask and token type ids which are 
+#needed for models like BERT   
+import config
 import torch
 
 class BERTDataset:
