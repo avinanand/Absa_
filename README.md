@@ -1,4 +1,13 @@
 # Absa_
+
+# OutPut files are 
+
+# 1.predicted_aspect(1).json 
+
+# 2.sentiment_prediction.json
+
+Divided both prediction to get a better view for models output
+
 Two models are trained 
 
   1.For aspect prediction
