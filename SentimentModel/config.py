@@ -1,3 +1,11 @@
+#this is the maximum number of tokens in the sentence 
+#batch sizes is small because model is huge! 
+#define path to BERT model files 
+#define the tokenizer  
+#used tokenizer and model 
+#from huggingface's transformers 
+
+
 import transformers
 
 MAX_LEN = 512
