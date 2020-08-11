@@ -16,7 +16,7 @@ Two models are trained
   
  Ipynb file predict_aspect.ipynb file for aspect prediction
  
- # Inside file we have config.py, dataset.py, model.py, engine.py, train.py
+ # Inside files we have config.py, dataset.py, model.py, engine.py, train.py
  
  confi.py: This python file has all the necessary configuration
  
