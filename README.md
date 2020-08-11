@@ -16,6 +16,8 @@ Two models are trained
   
  Ipynb file predict_aspect.ipynb file for aspect prediction
  
+ # Inside file we have config.py, dataset.py, model.py, engine.py, train.py
+ 
  confi.py: This python file has all the necessary configuration
  
  
@@ -42,11 +44,8 @@ Two models are trained
                 :return: output and targets 
 
 train.py 
- #this function trains the model  
- #read the training file and fill NaN values with "none" 
- #you can also choose to drop NaN values in this 
- #specific dataset 
-
+ inside this trains the model  
+ 
  
 
             
