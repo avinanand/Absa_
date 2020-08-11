@@ -1,6 +1,8 @@
 # Absa_
 Two models are trained 
+
   1.For aspect prediction
+  
   2.For sentiment prediction
   
  Ipynb file predict_aspect.ipynb file for aspect prediction
