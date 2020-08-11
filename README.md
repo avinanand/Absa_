@@ -30,5 +30,12 @@ Two models are trained
                 :param device: can be cpu or cuda 
                 :return: output and targets 
 
+train.py 
+ #this function trains the model  
+ #read the training file and fill NaN values with "none" 
+ #you can also choose to drop NaN values in this 
+ #specific dataset 
+
+ 
 
             
