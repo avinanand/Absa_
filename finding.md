@@ -1,4 +1,8 @@
 Finding from the data and model
+
+# for both of the models and specially for aspect prediction we need  to train with cross validation
+ # for aspect Stratified cross validation is needed, because data is unbalanced 
+ 
 1.For Sentiment Analysis:
 	Given data has 67% positive values and 33% negative values
 	Model has predicted 68% positive and 32% negative values
