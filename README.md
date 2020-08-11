@@ -29,6 +29,7 @@ Two models are trained
          
          
  engine.py: we have loss function adn two other one for trainin and another for evaluation
+ 
               In Training function:
                 InThis is the training function which trains for one epoch 
                 :param data_loader: it is the torch dataloader object  
@@ -36,6 +37,7 @@ Two models are trained
                 :param optimizer: adam, sgd, etc 
                 :param device: can be cpu or cuda  
                 :param scheduler: learning rate scheduler 
+                
               In eval funcion :
                 this is the validation function that generates  predictions on validation data 
                 :param data_loader: it is the torch dataloader object 
