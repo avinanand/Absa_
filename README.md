@@ -2,9 +2,9 @@
 
 # OutPut files are 
 
-# 1.predicted_aspect(1).json 
+# 1.predicted_aspect(1).json Accuracy = 0.7631
 
-# 2.sentiment_prediction.json
+# 2.sentiment_prediction.json Accuracy = 0.85
 
 Divided both prediction to get a better view for models output
 
