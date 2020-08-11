@@ -6,6 +6,8 @@
 
 # 2.sentiment_prediction.json   Accuracy = 0.85
 
+# 3.A quick paragraph about ML libraries - Pytorch vs Tesorflow.pdf
+
 Divided both prediction to get a better view for models output
 
 Two models are trained 
